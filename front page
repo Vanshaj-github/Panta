@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pantaloons</title>
+  <link rel="stylesheet" href="https://www.pantaloons.com/_next/static/css/..."> <!-- Minified styles -->
+  <style>
+    /* Minimal styling for illustration */
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #000; color: #fff; padding: 20px; text-align: center; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; }
+    .hero { background: url('https://pantaloons.imgix.net/...') no-repeat center; height: 400px; background-size: cover; }
+    .section { padding: 40px; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pantaloons</h1>
+    <nav>
+      <a href="/women">Women</a>
+      <a href="/men">Men</a>
+      <a href="/kids">Kids</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <!-- Hero banner background is styled via CSS -->
+  </section>
+
+  <section class="section">
+    <h2>Fresh Styles Every Week</h2>
+    <p>Explore new arrivals in women’s, men’s and kids’ fashion.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Pantaloons. All rights reserved.
+  </footer>
+
+</body>
+</html>
